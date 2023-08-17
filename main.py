@@ -1,11 +1,9 @@
 import json
 import os
 from datetime import datetime
-import telebot
 
 import requests
 
-bot = telebot.TeleBot('TELEGRAM_TOKEN')
 API_KEY = os.getenv('EXCHANGE_RATE_API_KEY')
 CURRENCY_RATES_FILE = 'currency_rates.json'
 
